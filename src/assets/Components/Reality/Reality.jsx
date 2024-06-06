@@ -32,7 +32,6 @@ const Reality = () => {
                 <h2>Your idea into <span>reality</span></h2>
                 <p>We start every web development project with a project manager from daCode interviewing you about the goal with the project. This is for us to be able to come up with a solution for your SaaS business, estimate a timeline, and come up with a budget.</p>
             </div>
-            <div className="reality_mian_parrent">
             <div className="reality_parrent">
                 {reality_item.map((item)=>(
                <div className="reality_item">
@@ -46,10 +45,6 @@ const Reality = () => {
               </div>
                 ))}
 
-            </div>
-            <div className="reality_right_img">
-                <picture><img src={reality} alt={reality} /></picture>
-            </div>
             </div>
         </div>
     </div>
